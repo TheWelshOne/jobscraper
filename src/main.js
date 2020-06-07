@@ -34,32 +34,7 @@ Apify.main(async () => {
     let countryUrl = '';
     switch (country.toLowerCase()){
         case 'us':
-            countryUrl = 'https://www.indeed.com';
-            break;
-        case 'uk':
-        case 'gb':
-            countryUrl = 'https://www.indeed.co.uk';
-            break;
-        case 'fr':
-            countryUrl = 'https://www.indeed.fr';
-            break;
-        case 'es':
-            countryUrl = 'https://www.indeed.es';
-            break;
-        case 'in':
-            countryUrl = 'https://www.indeed.co.in';
-            break;
-        case 'br':
-            countryUrl = 'https://www.indeed.com.br';
-            break;
-        case 'ca':
-            countryUrl = 'https://www.indeed.ca';
-            break;
-        case 'nl':
-            countryUrl = 'https://www.indeed.nl';
-             break;
-        case 'za':
-            countryUrl = 'https://www.indeed.co.za';
+            countryUrl = 'https://www.reed.co.uk';
             break;
         default:
             countryUrl = 'https://'+(country?country:'www')+'.indeed.com';
