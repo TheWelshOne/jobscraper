@@ -1,5 +1,5 @@
 {
-    "name": "indeed_com_scraper",
+    "name": "reed_com_scraper",
     "version": "0.0.1",
     "dependencies": {
         "apify": "^0.20.2",
