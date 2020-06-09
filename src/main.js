@@ -37,7 +37,7 @@ Apify.main(async () => {
             countryUrl = 'https://www.reed.co.uk';
             break;
         default:
-            countryUrl = 'https://'+(country?country:'www')+'.indeed.com';
+            countryUrl = 'https://'+(country?country:'www')+'.reed.co.uk';
     }
 
     const requestQueue = await Apify.openRequestQueue();
